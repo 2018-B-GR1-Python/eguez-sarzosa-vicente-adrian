@@ -20,3 +20,16 @@ print(arregloNumeros[-1])
 print(arregloNumeros[-2])
 print(arregloNumeros[3:-2])
 print(arregloNumeros[-5:-2])
+
+print(7 in arregloNumeros)
+print(15 in arregloNumeros)
+print(len(arregloNumeros))
+
+arregloNumeros.append(10)
+print(arregloNumeros)
+arregloNumeros.pop(-3)
+print(arregloNumeros)
+arregloNumeros.insert(1, 1.1)
+print(arregloNumeros)
+del arregloNumeros[1:4]
+print(arregloNumeros)

@@ -25,7 +25,8 @@ for indice in range(10):
 numeroAuxiliar = 0
 
 while numeroAuxiliar < 10:
-    print(f"Numero: {numeroAuxiliar}")
+    nombre = "adrian"
+    print(f"Numero: {numeroAuxiliar + 1} {nombre.capitalize()}")
     numeroAuxiliar += 1
 
 numeroAuxiliarDos = 0

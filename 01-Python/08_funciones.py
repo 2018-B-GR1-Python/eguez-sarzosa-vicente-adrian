@@ -152,7 +152,7 @@ def agregar_a_archivo(path, *lineas_a_escribir):
         archivo_abierto = open(path, 'a')  # 'a' Anade nueva linea
 
         for linea in lineas_a_escribir:
-            archivo_abierto.write("\n"+linea)
+            archivo_abierto.write("\n" + linea)
 
         archivo_abierto.close()
 
@@ -162,3 +162,12 @@ def agregar_a_archivo(path, *lineas_a_escribir):
 
 leer_archivo('./08_ejemplo.txt')
 agregar_a_archivo('./08_ejemplo.txt', "Hola esta", "es una", "prueba")
+
+elevar_al_cuadrado = lambda numero: numero * numero
+
+elevar_al_cuadrado = lambda n: n * n
+
+sumar_dos_numeros_v_2 = lambda x, y: x + y
+
+print(elevar_al_cuadrado(4))
+print(sumar_dos_numeros_v_2(4,4))

@@ -47,7 +47,7 @@ data_frame_completo_artwork.to_pickle(PATH_GUARDADO)
 df_completo_pickle =pd.read_pickle(PATH_GUARDADO)
 
 
-
+df = pd.read_excel('/Users/usrdel/Downloads/annualreferencetablesv2.xlsx', sheet_name='Births', skiprows=5)
 
 
 

@@ -1,0 +1,928 @@
+{
+  "schema": {
+    "fields": [
+      {
+        "name": "id",
+        "type": "integer"
+      },
+      {
+        "name": "artist",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "medium",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "string"
+      },
+      {
+        "name": "acquisitionYear",
+        "type": "number"
+      },
+      {
+        "name": "width",
+        "type": "string"
+      },
+      {
+        "name": "height",
+        "type": "string"
+      },
+      {
+        "name": "units",
+        "type": "string"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "pandas_version": "0.20.0"
+  },
+  "data": [
+    {
+      "id": 1631,
+      "artist": "Brus, G\u00fcnter",
+      "title": "Great Fear of the Earth I",
+      "medium": "Etching, drypoint and aquatint on paper",
+      "year": 1982.0,
+      "acquisitionYear": 1984.0,
+      "width": "604",
+      "height": "908",
+      "units": "mm"
+    },
+    {
+      "id": 1632,
+      "artist": "Brus, G\u00fcnter",
+      "title": "Great Fear of the Earth II",
+      "medium": "Etching, drypoint and aquatint on paper",
+      "year": 1982.0,
+      "acquisitionYear": 1984.0,
+      "width": "604",
+      "height": "908",
+      "units": "mm"
+    },
+    {
+      "id": 1633,
+      "artist": "Brus, G\u00fcnter",
+      "title": "Great Fear of the Earth III",
+      "medium": "Etching, drypoint and aquatint on paper",
+      "year": 1982.0,
+      "acquisitionYear": 1984.0,
+      "width": "604",
+      "height": "908",
+      "units": "mm"
+    },
+    {
+      "id": 4210,
+      "artist": "Fabro, Luciano",
+      "title": "Every Order is Contemporaneous of Every Other Order: Four Ways of Examining the Fa\u00e7ade of the SS. Redentore in Venice",
+      "medium": "Screenprint on papers",
+      "year": 1972.0,
+      "acquisitionYear": 1984.0,
+      "width": "2530",
+      "height": "9460",
+      "units": "mm"
+    },
+    {
+      "id": 751,
+      "artist": "Baselitz, Georg",
+      "title": "Drummer",
+      "medium": "Linocut on paper",
+      "year": 1982.0,
+      "acquisitionYear": 1984.0,
+      "width": "2010",
+      "height": "1508",
+      "units": "mm"
+    },
+    {
+      "id": 5728,
+      "artist": "Guston, Philip",
+      "title": "Door",
+      "medium": "Lithograph on paper",
+      "year": 1980.0,
+      "acquisitionYear": 1983.0,
+      "width": "495",
+      "height": "749",
+      "units": "mm"
+    },
+    {
+      "id": 959,
+      "artist": "Beuys, Joseph",
+      "title": "Untitled [from the book \u2018Madrid Codex\u2019]",
+      "medium": "Lithograph on paper",
+      "year": 1975.0,
+      "acquisitionYear": 1977.0,
+      "width": "216",
+      "height": "162",
+      "units": "mm"
+    },
+    {
+      "id": 8403,
+      "artist": "Lattanzi, Luciano",
+      "title": "[title not known: from \u2018Punctualizzazioni a uso Privato\u2019]",
+      "medium": "Intaglio print on paper",
+      "year": 1975.0,
+      "acquisitionYear": 1977.0,
+      "width": "114",
+      "height": "73",
+      "units": "mm"
+    },
+    {
+      "id": 12154,
+      "artist": "Pomodoro, Gio",
+      "title": "Untitled",
+      "medium": "Intaglio print on paper",
+      "year": 1975.0,
+      "acquisitionYear": 1977.0,
+      "width": "165",
+      "height": "257",
+      "units": "mm"
+    },
+    {
+      "id": 2966,
+      "artist": "Cuixart, Modestos",
+      "title": "Untitled",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1977.0,
+      "width": "222",
+      "height": "241",
+      "units": "mm"
+    },
+    {
+      "id": 600,
+      "artist": "Art & Language (Michael Baldwin, born 1945; Mel Ramsden, born 1944)",
+      "title": "Ten Postcards",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1977.0,
+      "width": "203",
+      "height": "765",
+      "units": "mm"
+    },
+    {
+      "id": 983,
+      "artist": "Bird, John",
+      "title": "I.I.",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 1000,
+      "artist": "Blake, John",
+      "title": "1. 2 & 1. 3",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 3999,
+      "artist": "Downsbrough, Peter",
+      "title": "1. 4",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "441",
+      "height": "559",
+      "units": "mm"
+    },
+    {
+      "id": 5603,
+      "artist": "Grayson, Roy",
+      "title": "1. 5",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 6187,
+      "artist": "Herring, Ed",
+      "title": "1. 6",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 4965,
+      "artist": "London Gallery",
+      "title": "7 K\u00f6lner Kunstmarkt",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 10490,
+      "artist": "Murphy, John",
+      "title": "1. 8",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 11362,
+      "artist": "Park, Alistair",
+      "title": "1. 9",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 13890,
+      "artist": "Stezaker, John",
+      "title": "1. 10 and 1. 11",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "559",
+      "height": "441",
+      "units": "mm"
+    },
+    {
+      "id": 16090,
+      "artist": "Wentworth, Richard",
+      "title": "1. 12",
+      "medium": "Lithograph on paper",
+      "year": 1973.0,
+      "acquisitionYear": 1977.0,
+      "width": "441",
+      "height": "559",
+      "units": "mm"
+    },
+    {
+      "id": 4675,
+      "artist": "Frohner, Adolf",
+      "title": "Looking Up to the Woman",
+      "medium": "Intaglio print on paper",
+      "year": 1975.0,
+      "acquisitionYear": 1978.0,
+      "width": "178",
+      "height": "140",
+      "units": "mm"
+    },
+    {
+      "id": 7021,
+      "artist": "Illes, Arpad",
+      "title": "Jonah and the Whale",
+      "medium": "Linocut on paper",
+      "year": 1967.0,
+      "acquisitionYear": 1978.0,
+      "width": "95",
+      "height": "149",
+      "units": "mm"
+    },
+    {
+      "id": 8239,
+      "artist": "Kunkel, Don",
+      "title": "Untitled",
+      "medium": "Screenprint on paper",
+      "year": 1971.0,
+      "acquisitionYear": 1978.0,
+      "width": "79",
+      "height": "79",
+      "units": "mm"
+    },
+    {
+      "id": 8247,
+      "artist": "Laabs, Hans",
+      "title": "Untitled",
+      "medium": "Screenprint on paper",
+      "year": 1971.0,
+      "acquisitionYear": 1978.0,
+      "width": "79",
+      "height": "79",
+      "units": "mm"
+    },
+    {
+      "id": 10526,
+      "artist": "Nash, John",
+      "title": "Cyclamen Periscum",
+      "medium": "Wood engraving on paper",
+      "year": 1924.0,
+      "acquisitionYear": 1978.0,
+      "width": "171",
+      "height": "124",
+      "units": "mm"
+    },
+    {
+      "id": 10527,
+      "artist": "Nash, John",
+      "title": "Epiphyllum in Flower",
+      "medium": "Wood engraving on paper",
+      "year": 1925.0,
+      "acquisitionYear": 1978.0,
+      "width": "159",
+      "height": "124",
+      "units": "mm"
+    },
+    {
+      "id": 10528,
+      "artist": "Nash, John",
+      "title": "A Cottage in Gloucestershire",
+      "medium": "Wood engraving on paper",
+      "year": 1925.0,
+      "acquisitionYear": 1978.0,
+      "width": "124",
+      "height": "171",
+      "units": "mm"
+    },
+    {
+      "id": 10529,
+      "artist": "Nash, John",
+      "title": "Threshing",
+      "medium": "Wood engraving on paper",
+      "year": 1925.0,
+      "acquisitionYear": 1978.0,
+      "width": "124",
+      "height": "203",
+      "units": "mm"
+    },
+    {
+      "id": 10530,
+      "artist": "Nash, John",
+      "title": "Frontispiece for the Book of the Tree",
+      "medium": "Wood engraving on paper",
+      "year": 1927.0,
+      "acquisitionYear": 1978.0,
+      "width": "140",
+      "height": "95",
+      "units": "mm"
+    },
+    {
+      "id": 10531,
+      "artist": "Nash, John",
+      "title": "The Fisherman",
+      "medium": "Wood engraving on paper",
+      "year": 1931.0,
+      "acquisitionYear": 1978.0,
+      "width": "114",
+      "height": "137",
+      "units": "mm"
+    },
+    {
+      "id": 930,
+      "artist": "Benjamin, Anthony",
+      "title": "Drifting Blue Edge",
+      "medium": "Screenprint on paper",
+      "year": 1968.0,
+      "acquisitionYear": 1978.0,
+      "width": "1016",
+      "height": "762",
+      "units": "mm"
+    },
+    {
+      "id": 4325,
+      "artist": "Hamilton Finlay, Ian",
+      "title": "Porphyry [collaboration with Ron Costley]",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1978.0,
+      "width": "95",
+      "height": "121",
+      "units": "mm"
+    },
+    {
+      "id": 10280,
+      "artist": "Mordm\u00fcller, Rainer G",
+      "title": "[no title]",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1978.0,
+      "width": "219",
+      "height": "159",
+      "units": "mm"
+    },
+    {
+      "id": 10281,
+      "artist": "Mordm\u00fcller, Rainer G",
+      "title": "[no title]",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1978.0,
+      "width": "219",
+      "height": "159",
+      "units": "mm"
+    },
+    {
+      "id": 10282,
+      "artist": "Mordm\u00fcller, Rainer G",
+      "title": "[no title]",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1978.0,
+      "width": "219",
+      "height": "159",
+      "units": "mm"
+    },
+    {
+      "id": 10283,
+      "artist": "Mordm\u00fcller, Rainer G",
+      "title": "[no title]",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1978.0,
+      "width": "219",
+      "height": "159",
+      "units": "mm"
+    },
+    {
+      "id": 10284,
+      "artist": "Mordm\u00fcller, Rainer G",
+      "title": "[no title]",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1978.0,
+      "width": "219",
+      "height": "159",
+      "units": "mm"
+    },
+    {
+      "id": 10285,
+      "artist": "Mordm\u00fcller, Rainer G",
+      "title": "[no title]",
+      "medium": "Lithograph on paper",
+      "year": 1977.0,
+      "acquisitionYear": 1978.0,
+      "width": "219",
+      "height": "159",
+      "units": "mm"
+    },
+    {
+      "id": 9044,
+      "artist": "Maccari, Mino",
+      "title": "Giorgio Morandi",
+      "medium": "Intaglio print on paper",
+      "year": 1975.0,
+      "acquisitionYear": 1978.0,
+      "width": "143",
+      "height": "127",
+      "units": "mm"
+    },
+    {
+      "id": 15685,
+      "artist": "Valoch, Jiri",
+      "title": "Do It Yourself I - Signs",
+      "medium": "Relief print on paper",
+      "year": 1972.0,
+      "acquisitionYear": 1979.0,
+      "width": "210",
+      "height": "149",
+      "units": "mm"
+    },
+    {
+      "id": 15686,
+      "artist": "Valoch, Jiri",
+      "title": "Do It Yourself II - Dialogues",
+      "medium": "Relief print on paper",
+      "year": 1972.0,
+      "acquisitionYear": 1979.0,
+      "width": "206",
+      "height": "149",
+      "units": "mm"
+    },
+    {
+      "id": 15687,
+      "artist": "Valoch, Jiri",
+      "title": "Study of Identification",
+      "medium": "Relief print on paper",
+      "year": 1972.0,
+      "acquisitionYear": 1979.0,
+      "width": "149",
+      "height": "149",
+      "units": "mm"
+    },
+    {
+      "id": 15688,
+      "artist": "Valoch, Jiri",
+      "title": "Symmetrical Concept",
+      "medium": "Relief print on paper",
+      "year": 1972.0,
+      "acquisitionYear": 1979.0,
+      "width": "206",
+      "height": "146",
+      "units": "mm"
+    },
+    {
+      "id": 5209,
+      "artist": "Gill, Eric",
+      "title": "Nativity with Midwife",
+      "medium": "Wood engraving on paper",
+      "year": 1913.0,
+      "acquisitionYear": 1979.0,
+      "width": "51",
+      "height": "51",
+      "units": "mm"
+    },
+    {
+      "id": 5210,
+      "artist": "Gill, Eric",
+      "title": "Slaughter of the Innocents",
+      "medium": "Wood engraving on paper",
+      "year": 1914.0,
+      "acquisitionYear": 1979.0,
+      "width": "60",
+      "height": "51",
+      "units": "mm"
+    },
+    {
+      "id": 5211,
+      "artist": "Gill, Eric",
+      "title": "Calvary, Five Stalks of Leaves, and Ship",
+      "medium": "Wood engraving on paper",
+      "year": 1915.0,
+      "acquisitionYear": 1979.0,
+      "width": "175",
+      "height": "79",
+      "units": "mm"
+    },
+    {
+      "id": 5212,
+      "artist": "Gill, Eric",
+      "title": "Crucifix, Chalice & Host",
+      "medium": "Wood engraving on paper",
+      "year": 1915.0,
+      "acquisitionYear": 1979.0,
+      "width": "124",
+      "height": "79",
+      "units": "mm"
+    },
+    {
+      "id": 5213,
+      "artist": "Gill, Eric",
+      "title": "Dumb-Driven Cattle",
+      "medium": "Wood engraving on paper",
+      "year": 1915.0,
+      "acquisitionYear": 1979.0,
+      "width": "95",
+      "height": "79",
+      "units": "mm"
+    },
+    {
+      "id": 5214,
+      "artist": "Gill, Eric",
+      "title": "Hog and Wheatsheaf",
+      "medium": "Wood engraving on paper",
+      "year": 1915.0,
+      "acquisitionYear": 1979.0,
+      "width": "133",
+      "height": "133",
+      "units": "mm"
+    },
+    {
+      "id": 5215,
+      "artist": "Gill, Eric",
+      "title": "The Purchaser",
+      "medium": "Wood engraving on paper",
+      "year": 1915.0,
+      "acquisitionYear": 1979.0,
+      "width": "124",
+      "height": "79",
+      "units": "mm"
+    },
+    {
+      "id": 5216,
+      "artist": "Gill, Eric",
+      "title": "Adeste Fideles, Three Kings, The Manger, Cantet Nunc Io, Madonna & Child with Chalice",
+      "medium": "Wood engraving on paper",
+      "year": 1916.0,
+      "acquisitionYear": 1979.0,
+      "width": "200",
+      "height": "133",
+      "units": "mm"
+    },
+    {
+      "id": 5217,
+      "artist": "Gill, Eric",
+      "title": "Animals All",
+      "medium": "Wood engraving on paper",
+      "year": 1916.0,
+      "acquisitionYear": 1979.0,
+      "width": "51",
+      "height": "51",
+      "units": "mm"
+    },
+    {
+      "id": 5218,
+      "artist": "Gill, Eric",
+      "title": "Christmas Gifts: Daylight, and Christmas Gifts: Dawn",
+      "medium": "Wood engraving on paper",
+      "year": null,
+      "acquisitionYear": 1979.0,
+      "width": "175",
+      "height": "89",
+      "units": "mm"
+    },
+    {
+      "id": 5219,
+      "artist": "Gill, Eric",
+      "title": "Initial S with Church, Chalice & Host with \u00db & A, Gravestone with Angel, Semi-Circular Device, and Circular Device",
+      "medium": "Wood engraving on paper",
+      "year": 1916.0,
+      "acquisitionYear": 1979.0,
+      "width": "175",
+      "height": "165",
+      "units": "mm"
+    },
+    {
+      "id": 5220,
+      "artist": "Gill, Eric",
+      "title": "Madonna and Child with Angel",
+      "medium": "Wood engraving on paper",
+      "year": 1916.0,
+      "acquisitionYear": 1979.0,
+      "width": "60",
+      "height": "60",
+      "units": "mm"
+    },
+    {
+      "id": 5221,
+      "artist": "Gill, Eric",
+      "title": "Jesus is Condemned to Death",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5222,
+      "artist": "Gill, Eric",
+      "title": "Jesus Receives His Cross",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5223,
+      "artist": "Gill, Eric",
+      "title": "Jesus Falls the First Time",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5224,
+      "artist": "Gill, Eric",
+      "title": "Jesus Meets His Mother",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5225,
+      "artist": "Gill, Eric",
+      "title": "Simon of Cyrene Helps Jesus to Carry the Cross",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5226,
+      "artist": "Gill, Eric",
+      "title": "Jesus Meets Veronica",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5227,
+      "artist": "Gill, Eric",
+      "title": "Jesus Falls the Second Time",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5228,
+      "artist": "Gill, Eric",
+      "title": "Jesus Speaks to the Women of Jerusalem",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5229,
+      "artist": "Gill, Eric",
+      "title": "Jesus Falls the Third Time",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5230,
+      "artist": "Gill, Eric",
+      "title": "Jesus is Stripped",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5231,
+      "artist": "Gill, Eric",
+      "title": "Jesus is Nailed to the Cross",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5232,
+      "artist": "Gill, Eric",
+      "title": "Jesus Dies Upon the Cross",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5233,
+      "artist": "Gill, Eric",
+      "title": "The Body of Jesus is Taken Down from the Cross",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5234,
+      "artist": "Gill, Eric",
+      "title": "The Body of Jesus is Laid in the Tomb",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "54",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5235,
+      "artist": "Gill, Eric",
+      "title": "Crucifix",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "124",
+      "height": "79",
+      "units": "mm"
+    },
+    {
+      "id": 5236,
+      "artist": "Gill, Eric",
+      "title": "Epiphany, Palm Sunday, and Adam & Eve",
+      "medium": "Wood engraving on paper",
+      "year": null,
+      "acquisitionYear": 1979.0,
+      "width": "181",
+      "height": "63",
+      "units": "mm"
+    },
+    {
+      "id": 5237,
+      "artist": "Gill, Eric",
+      "title": "The Last Judgement",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "44",
+      "height": "54",
+      "units": "mm"
+    },
+    {
+      "id": 5238,
+      "artist": "Gill, Eric",
+      "title": "Resurrection",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "140",
+      "height": "89",
+      "units": "mm"
+    },
+    {
+      "id": 5239,
+      "artist": "Gill, Eric",
+      "title": "Spray of Leaves, Stalk, Initial O with Speedwell, Paschal Lamb, Axe & Block, and Hangman\u2019s Rope",
+      "medium": "Wood engraving on paper",
+      "year": 1917.0,
+      "acquisitionYear": 1979.0,
+      "width": "171",
+      "height": "140",
+      "units": "mm"
+    },
+    {
+      "id": 5240,
+      "artist": "Gill, Eric",
+      "title": "Ascension",
+      "medium": "Wood engraving on paper",
+      "year": 1918.0,
+      "acquisitionYear": 1979.0,
+      "width": "140",
+      "height": "89",
+      "units": "mm"
+    },
+    {
+      "id": 5241,
+      "artist": "Gill, Eric",
+      "title": "Madonna & Child in Vesica",
+      "medium": "Wood engraving on paper",
+      "year": 1918.0,
+      "acquisitionYear": 1979.0,
+      "width": "105",
+      "height": "44",
+      "units": "mm"
+    },
+    {
+      "id": 5242,
+      "artist": "Gill, Eric",
+      "title": "Christ and the Money-Changers",
+      "medium": "Wood engraving on paper",
+      "year": 1919.0,
+      "acquisitionYear": 1979.0,
+      "width": "51",
+      "height": "70",
+      "units": "mm"
+    },
+    {
+      "id": 5243,
+      "artist": "Gill, Eric",
+      "title": "Christ and the Money-Changers",
+      "medium": "Wood engraving on paper",
+      "year": 1919.0,
+      "acquisitionYear": 1979.0,
+      "width": "140",
+      "height": "89",
+      "units": "mm"
+    },
+    {
+      "id": 5244,
+      "artist": "Gill, Eric",
+      "title": "Crucifix",
+      "medium": "Wood engraving on paper",
+      "year": 1919.0,
+      "acquisitionYear": 1979.0,
+      "width": "130",
+      "height": "102",
+      "units": "mm"
+    }
+  ]
+}

@@ -10,7 +10,7 @@ class SpiderItems(scrapy.Spider):
     ]
 
     def parse(self, response):
-        lista_macbooks = response.css('.ul.s-result-list > li')
+        lista_macbooks = response.css('ul.s-result-list > li')
 
         for macbook in lista_macbooks:
             titulo = macbook.css('.s-access-title::text').extract_first()

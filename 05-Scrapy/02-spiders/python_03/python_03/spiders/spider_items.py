@@ -10,6 +10,7 @@ class SpiderItems(scrapy.Spider):
     ]
 
     def parse(self, response):
+        print('ASDASD')
         lista_macbooks = response.css('ul.s-result-list > li')
 
         for macbook in lista_macbooks:

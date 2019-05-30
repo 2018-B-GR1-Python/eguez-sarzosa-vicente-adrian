@@ -10,3 +10,5 @@
 - Analisis de Datos
 - AI
 - IoT Internet of Things
+
+https://youtu.be/iYie42M1ZyU
